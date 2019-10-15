@@ -3,6 +3,10 @@
     --light-color: #f7e8f6;
 }
 
+html{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -18,8 +22,8 @@ body{
     height:450px ;
     width: 600px;
     margin: 0 auto;
-    border: 2px solid white;
     position: relative;
+    text-align: center;
 }
 
 .cloud{
@@ -28,17 +32,40 @@ body{
 }
 
 .cloud1{
-    position: absolute;
+    left:10%;
+    top:20%;
 
 }
 
 .cloud2{
-    position: absolute;
+    left:40%;
+    top:5%;
 
 }
 
 
 .mountain{
+    left:0%;
     position: absolute;
     bottom: 0;
+}
+
+h1{
+    font-family: 'Mansalva', cursive;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.profile{
+    width: 800px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.profile_image{
+    width: 100px;
+    height: 100px;
+
 }
