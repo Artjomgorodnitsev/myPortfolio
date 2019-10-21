@@ -61,7 +61,6 @@ h1{
 .middle-container{
     width: 800px;
     margin: 2rem auto;
-    border: 1px solid red;
 }
 
 .profile{
@@ -91,4 +90,56 @@ h1{
     float: right;
     margin-left: 2rem;
     margin-top: 2rem;
+}
+
+.contact-me{
+    text-align: center;
+}
+
+.btn {
+    background: #b38aa4;
+    background-image: -webkit-linear-gradient(top, #b38aa4, #2b90b8);
+    background-image: -moz-linear-gradient(top, #b38aa4, #2b90b8);
+    background-image: -ms-linear-gradient(top, #b38aa4, #2b90b8);
+    background-image: -o-linear-gradient(top, #b38aa4, #2b90b8);
+    background-image: linear-gradient(to bottom, #b38aa4, #2b90b8);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 0px 1px 3px #666666;
+    font-family: Georgia;
+    color: #f5f5f5;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 1rem;
+    display: inline-block;
+  }
+  
+  .btn:hover {
+    background: #e815c5;
+    background-image: -webkit-linear-gradient(top, #e815c5, #641ea1);
+    background-image: -moz-linear-gradient(top, #e815c5, #641ea1);
+    background-image: -ms-linear-gradient(top, #e815c5, #641ea1);
+    background-image: -o-linear-gradient(top, #e815c5, #641ea1);
+    background-image: linear-gradient(to bottom, #e815c5, #641ea1);
+    text-decoration: none;
+  }
+
+  .bottom-container{
+      background-color: var(--dark-color);
+      padding: 2rem 0;
+      text-align: center;
+  }
+
+  .bottom-container a{
+      display: inline-block;
+      text-decoration: none;
+      margin: 1.5rem 1.5rem;
+      color: rgb(129, 83, 83)
+}
+
+.bottom-container a:hover{
+color: var(--light-color);
 }
